@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Pixelify Sans');
+*{
+    margin: 0;
+    background-color: #98FF98;
+}
+
+.heading{
+    font-family: Pixelify Sans;
+    font-size: 100px;
+    color: #022B3A;
+    text-align: center;
+
+}
+
+#divider{
+    display: grid;
+    justify-content: center;
+    gap: 100px;
+    transform: translateY(5%);
+}
+
+.square1, .square2, .square3{
+    width: 15px;
+    height: 120px;
+    background-color: #022B3A;
+    border-radius: 2px;
+}
+
+
+#game {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}    
+
+
+.container #rock{
+    width: 220.2px;
+    height:200px;
+    background-color:#EE3F3F;
+    background-image: url(/imgs/rock.png);
+    border-radius: 10px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+.container #rock:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+.container #paper{
+    width: 220.2px;
+    height:200px;
+    background-color:#2388FB;
+    background-image: url(/imgs/paper.png);
+    border-radius: 10px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+.container #paper:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container #scissors{
+    width: 220.2px;
+    height:200px;
+    background-image: url(/imgs/scissors.png);
+    background-color:#8C28CF;
+    border-radius: 10px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+.container #scissors:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
