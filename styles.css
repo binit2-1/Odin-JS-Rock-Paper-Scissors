@@ -12,6 +12,21 @@
 
 }
 
+.score-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px; /* spacing between squares and score boxes */
+    margin-top: 50px;
+}
+
+.player, .computer {
+    text-align: center;
+    font-family: Pixelify Sans;
+    font-size: 24px;
+    color: #022B3A;
+}
+
 #divider{
     display: grid;
     justify-content: center;
