@@ -59,7 +59,7 @@
     width: 220.2px;
     height:200px;
     background-color:#EE3F3F;
-    background-image: url(/imgs/rock.png);
+    background-image: url(./imgs/rock.png);
     border-radius: 10px;
     border: none;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@
     width: 220.2px;
     height:200px;
     background-color:#2388FB;
-    background-image: url(/imgs/paper.png);
+    background-image: url(./imgs/paper.png);
     border-radius: 10px;
     border: none;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
 .container #scissors{
     width: 220.2px;
     height:200px;
-    background-image: url(/imgs/scissors.png);
+    background-image: url(./imgs/scissors.png);
     background-color:#8C28CF;
     border-radius: 10px;
     border: none;
