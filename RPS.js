@@ -77,7 +77,7 @@ exitBtn.addEventListener('click', () => {
     else{
         alert("It's a tie!");
     }
-    window.close();
+    // window.close();
     resetGame();
 });
 
